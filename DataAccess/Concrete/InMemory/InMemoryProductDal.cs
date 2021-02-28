@@ -45,7 +45,7 @@ namespace DataAccess.Concrete.InMemory
             _products.Remove(ProductToDelete);
         }
 
-        public Product get(Expression<Func<Product, bool>> filter)
+        public Product Get(Expression<Func<Product, bool>> filter)
         {
             throw new NotImplementedException();
         }
